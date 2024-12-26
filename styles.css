@@ -1,0 +1,176 @@
+/* Общие стили для всего сайта */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для заголовков */
+h1, h2 {
+    color: #FF4136;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(255, 0, 0, 0.5);
+}
+
+/* Стили для текста */
+p {
+    color: #ddd;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Стили для ссылок */
+a {
+    color: #FF4136;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.6);
+}
+
+a:hover {
+    color: #fff;
+    background-color: #FF4136;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Стили для навигации */
+nav {
+    background-color: #1a1a1a;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #FF4136;
+    background-color: #333;
+}
+
+/* Баннер */
+header img {
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+}
+
+header h1 {
+    font-size: 4rem;
+    margin: 20px 0;
+    color: #FF4136;
+    text-shadow: 3px 3px 6px rgba(255, 0, 0, 0.9);
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: -10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Стили для секций */
+section {
+    margin: 2rem 0;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #FF4136;
+    text-shadow: 2px 2px 6px rgba(255, 0, 0, 0.7);
+}
+
+/* Стили для списка бойцов */
+#fighters ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#fighters li {
+    margin: 15px 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#fighters a {
+    color: #FF4136;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.5);
+}
+
+#fighters a:hover {
+    color: #fff;
+    background-color: #FF4136;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Стили для новостей */
+#news ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#news li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#news a {
+    color: #FF4136;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.5);
+}
+
+#news a:hover {
+    color: #fff;
+    background-color: #FF4136;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    border-top: 2px solid #FF4136;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.8);
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Стиль для кнопок */
+button {
+    background-color: #FF4136;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e02d23;
+}
